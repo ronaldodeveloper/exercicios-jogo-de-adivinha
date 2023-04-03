@@ -23,7 +23,7 @@ form.addEventListener('submit', (e)=>{
     data.push(valor)
 
     if(valor == numeroAleatorio){
-        res.innerHTML = `Parabéns você acertou: O número é <strong>${valor}</strong>`;
+        res.innerHTML = `<strong class="bg-success p-2">Parabéns você acertou: O número correto é ${valor}</strong>`;
         aviso.innerHTML= `acertou na ${data.length}° tentativa`
         jogar.style.display= 'block'
         
